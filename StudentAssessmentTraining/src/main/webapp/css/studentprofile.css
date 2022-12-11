@@ -1,0 +1,221 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: -1px;
+    background-image: linear-gradient(90deg,rgb(81,166,179),rgb(91,173,137));
+    
+}
+h1{
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgb(106,74,238);
+}
+.name 
+{
+    border-top: 1px solid black;
+    padding:0rem 2rem;
+    margin-bottom: 15px;
+    background-image: linear-gradient(45deg,blue,black);
+    height: fit-content;
+    color: aqua;
+}
+h2
+{
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.profile
+{
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 20rem;
+    margin-left: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;justify-content:space-between;flex-direction: column;
+}
+
+.backtohome
+{
+    background-color: aliceblue;
+    width: fit-content;
+    margin: 1rem;
+}
+.backtohome a
+{
+    text-decoration: none;
+ 
+}
+.backtohome:hover
+{
+    background-color: aqua;
+    
+}
+.backtohome a:hover
+{
+    color: azure;
+}
+.profile_pic
+{
+    padding: 1rem 2rem;
+    text-align: center;
+}
+.profile img
+{
+    width: 100px;
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile table
+{
+    margin-top: 2rem;
+}
+table {
+  padding: 1rem;
+  display: block;
+  overflow-x: auto;
+  border-spacing: 0;
+}
+
+tbody {
+  white-space: nowrap;
+}
+
+
+.generalinfo
+{
+   background-color: aliceblue;
+   width: 50rem;
+   padding: 1rem;
+}
+.generalinfo h2
+{
+    margin-left: 1rem;
+}
+.generalinfo table tr,td,th
+{
+    text-align: start;
+    padding: 5px 4rem;
+    padding-right: 4rem;
+}
+.dots
+{
+    text-align: start;
+    padding: 5px 10px;
+}
+input
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: none;
+    border: none;
+}
+input:focus
+{
+    background: none;
+    outline: none;
+}
+
+.profiledetails
+{
+    display: inline-flex;
+    gap: 10rem;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+.profile
+{
+    height:80%;
+}
+
+
+
+.contestsinfo
+{
+    width: 50rem;
+    background-color: aliceblue;
+}
+.contestsinfo table tr th
+{
+   padding: 0rem;   
+}
+
+.info
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+.contestsinfo h2
+{
+    padding-left: 2rem;
+}
+.choosefile{
+    padding:5px 10px;
+    position:relative;
+    border-radius:2px;
+    text-align:center;
+    float:left;
+    height: 40rem;
+
+    
+  }
+  .hide_file {
+      position: absolute;
+      z-index: 1000;
+      opacity: 0;
+      cursor: pointer;
+      right: 0;
+      top: 0;
+      height: 100%;
+      font-size: 24px;
+      width: 100%;
+  }
+
+.btn input[type="submit"]
+{
+    padding:5px 10px;
+    background:#93ad00;
+    border:1px solid #00ad2d;
+    position:relative;
+    color: #f7fbf8;
+    border-radius:2px;
+    text-align:center;
+    float:left;
+    margin-left: 1rem;
+    margin-top: .2rem;
+    cursor: pointer;
+}.btn input[type="submit"]:hover 
+{
+    background-color: white;
+    color:#93ad00
+}
+form div
+{
+    display: flex;
+    
+}
+.btn-changes{
+    background-color: #00ad2d;
+    color: #f7fbf8;
+    margin-left: 40%;
+    padding: 1rem;
+    cursor: pointer;
+}
+.btn-changes:hover
+{
+    background-color: #c5cac8;
+    color: #00ad2d;
+}

@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+body
+{
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.55;
+    color: rgb(60, 58, 71);
+}
+h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+}
+.dark h3
+{
+    color: rgb(255, 255, 255);
+}
+p
+{
+    margin-bottom: 1rem;
+}
+p.section-intro
+{
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.dark p.section-intro
+{
+    color: rgba(255, 255, 255,.8);
+}
+form input,
+form textarea,
+form button{
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    line-height: 1.55rem;
+}
+
+.container.small
+{
+    width: 60%;
+    max-width: 35rem;
+     margin: 0 auto;
+}
+.dark
+{
+    padding: 13rem 0;
+    text-align: center;
+}
+.dark
+{
+    background-color: rgb(60, 58, 71);
+}
+.dark label
+{
+    color: rgba(255, 255, 255,.8);
+}
+form input,form textarea
+{
+    background-color: rgba(255, 255, 255,.1);
+    border: none;
+    padding: 1rem ;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    resize: none;
+
+}
+form input:focus,form textarea:focus
+{
+    outline: none;
+    background-color: rgba(255, 255, 255,.2);
+}
+form div{
+    margin-bottom: 1.75rem;
+}
+form label{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: start;
+    margin-bottom: .5rem;
+}
+form button
+{
+    width: 100%;
+    cursor: pointer;
+}
+.responsetext
+{
+	color:rgba(255, 255, 255,.8);
+}
+.dark .btn{
+    border: 1px solid rgba(255, 255, 255,.8);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.dark .btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 58, 71);
+}
+p.muted
+{
+    color: rgba(255, 255, 255,.5);
+}
+form button+p{
+    margin-top: 1.75rem;
+}

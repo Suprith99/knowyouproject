@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: sticky;
+}
+hr{
+    margin: 1rem;
+}
+
+a{
+   display: flex;
+   align-items: center;
+   gap: .5rem;
+    text-decoration: none;
+    color: blue;
+    font-size: 1rem;
+    font-weight: 1000;
+
+}
+a:hover
+{
+    background-color: rgb(143, 143, 237);
+    padding: 1rem 1rem;
+}
+.header img{
+    width: 20px;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-align: center;
+    color: red;
+    animation: blinker 0.3s linear infinite;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+h2
+{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: -1px;
+    background-color: rgb(244, 222, 195);
+}
+.container
+{
+    width: fit-content;
+    background-color: aliceblue;
+    margin-top: 2rem;
+    padding: .5rem 4rem;
+    
+}
+.container h1{
+    margin-bottom: 1rem;
+}
+form input,form select,form button,form textarea{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: rgb(47, 45, 45);
+}
+form input,form select,form button,form textarea
+{
+    border: none;
+    padding: .5rem 1rem;
+    background-color: rgba(63, 59, 59,.1);
+    resize: none;
+}
+form input:focus,form textarea:hover
+{
+    outline: none;
+    background-color: rgba(63, 59, 59,.5);
+}
+.container form div
+{
+    padding-bottom:2rem ;
+}
+form .options
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 1000;
+}
+label{
+    display: block;
+    color: rgb(47, 45, 45);
+    margin-bottom: 1rem;
+}
+.container form .buttons
+{
+    display: flex;
+    justify-content: space-between;
+}
+.container form .buttons input[type=submit]{
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: .5rem .5rem;
+    background-color: rgb(149, 149, 241);
+}
+.container form .buttons input[type=submit]:hover{
+    background-color: black;
+    color: rgb(149, 149, 241);
+}
