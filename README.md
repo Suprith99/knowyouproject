@@ -30,3 +30,5 @@ We believe that our platform will provide students with a personalized learning 
 ![image](https://user-images.githubusercontent.com/92581592/227753798-4b6bd26d-4789-4bea-8944-6afeacb44a04.png)
 ![image](https://user-images.githubusercontent.com/92581592/227753823-98410328-d12d-4415-887c-7925cf93f59f.png)
 ![image](https://user-images.githubusercontent.com/92581592/227753826-d2ba8e03-21d7-4c92-b4f9-46b5ab127819.png)
+![image](https://user-images.githubusercontent.com/92581592/227753864-3bb6886a-3bc8-439b-909f-a4610f22a3c4.png)
+
