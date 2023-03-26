@@ -15,3 +15,6 @@ Personalization: The platform should allow students to choose courses that match
 Monitoring: Mentors should be responsible for monitoring the progress of their assigned students, ensuring they are making progress and meeting their goals.
 
 We believe that our platform will provide students with a personalized learning experience that will help them achieve their educational goals.
+
+
+![image](https://user-images.githubusercontent.com/92581592/227753725-09e92e85-681a-489d-b9b2-6bfc6f1a40f2.png)
